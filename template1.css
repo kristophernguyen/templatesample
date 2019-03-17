@@ -1,15 +1,3 @@
-/*!
-Theme Name: Divi
-Theme URI: http://www.elegantthemes.com/gallery/divi/
-Version: 3.7
-Description: Smart. Flexible. Beautiful. Divi is the most powerful theme in our collection.
-Author: Elegant Themes
-Author URI: http://www.elegantthemes.com
-Tags: responsive-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready
-License: GNU General Public License v2
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-*/
-/* Browser Reset */
 html,
 body,
 div,
@@ -372,70 +360,6 @@ br.clear {
 #top-menu li {
 	word-wrap: break-word;
 }
-
-/* Accent Color */
-.woocommerce .woocommerce-error,
-.woocommerce .woocommerce-info,
-.woocommerce .woocommerce-message {
-	background: #f6881f;
-}
-
-#et_search_icon:hover,
-.mobile_menu_bar:before,
-.mobile_menu_bar:after,
-.et-social-icon a:hover,
-.comment-reply-link,
-.form-submit .et_pb_button,
-.entry-summary p.price ins,
-.woocommerce div.product span.price,
-.woocommerce-page div.product span.price,
-.woocommerce #content div.product span.price,
-.woocommerce-page #content div.product span.price,
-.woocommerce div.product p.price,
-.woocommerce-page div.product p.price,
-.woocommerce #content div.product p.price,
-.woocommerce-page #content div.product p.price,
-.woocommerce .star-rating span:before,
-.woocommerce-page .star-rating span:before,
-.woocommerce a.button.alt,
-.woocommerce-page a.button.alt,
-.woocommerce button.button.alt,
-.woocommerce-page button.button.alt,
-.woocommerce input.button.alt,
-.woocommerce-page input.button.alt,
-.woocommerce #respond input#submit.alt,
-.woocommerce-page #respond input#submit.alt,
-.woocommerce #content input.button.alt,
-.woocommerce-page #content input.button.alt,
-.woocommerce a.button,
-.woocommerce-page a.button,
-.woocommerce button.button,
-.woocommerce-page button.button,
-.woocommerce input.button,
-.woocommerce-page input.button,
-.woocommerce #respond input#submit,
-.woocommerce-page #respond input#submit,
-.woocommerce #content input.button,
-.woocommerce-page #content input.button,
-.woocommerce a.button.alt:hover,
-.woocommerce-page a.button.alt:hover,
-.woocommerce button.button.alt:hover,
-.woocommerce-page button.button.alt:hover,
-.woocommerce input.button.alt:hover,
-.woocommerce-page input.button.alt:hover,
-.woocommerce #respond input#submit.alt:hover,
-.woocommerce-page #respond input#submit.alt:hover,
-.woocommerce #content input.button.alt:hover,
-.woocommerce-page #content input.button.alt:hover,
-.woocommerce a.button:hover,
-.woocommerce-page a.button:hover,
-.woocommerce button.button,
-.woocommerce-page button.button:hover,
-.woocommerce input.button:hover,
-.woocommerce-page input.button:hover,
-.woocommerce #respond input#submit:hover,
-.woocommerce-page #respond input#submit:hover,
-.woocommerce #content input.button:hover,
 .wp-pagenavi span.current,
 .wp-pagenavi a:hover,
 .et_password_protected_form .et_submit_button,
@@ -545,536 +469,6 @@ blockquote {
 .main_title {
 	margin-bottom: 20px;
 }
-
-/* Button Styles */
-.woocommerce a.button.alt,
-.woocommerce-page a.button.alt,
-.woocommerce button.button.alt,
-.woocommerce-page button.button.alt,
-.woocommerce input.button.alt,
-.woocommerce-page input.button.alt,
-.woocommerce #respond input#submit.alt,
-.woocommerce-page #respond input#submit.alt,
-.woocommerce #content input.button.alt,
-.woocommerce-page #content input.button.alt,
-.woocommerce a.button,
-.woocommerce-page a.button,
-.woocommerce button.button,
-.woocommerce-page button.button,
-.woocommerce input.button,
-.woocommerce-page input.button,
-.woocommerce #respond input#submit,
-.woocommerce-page #respond input#submit,
-.woocommerce #content input.button,
-.woocommerce-page #content input.button {
-	position: relative;
-	padding: 0.3em 1em;
-	border: 2px solid;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	background: transparent;
-	font-size: 20px;
-	font-weight: 500;
-	line-height: 1.7em !important;
-	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	transition: all 0.2s;
-}
-
-/* Button Hover */
-.woocommerce a.button.alt:hover,
-.woocommerce-page a.button.alt:hover,
-.woocommerce button.button.alt:hover,
-.woocommerce-page button.button.alt:hover,
-.woocommerce input.button.alt:hover,
-.woocommerce-page input.button.alt:hover,
-.woocommerce #respond input#submit.alt:hover,
-.woocommerce-page #respond input#submit.alt:hover,
-.woocommerce #content input.button.alt:hover,
-.woocommerce-page #content input.button.alt:hover,
-.woocommerce a.button:hover,
-.woocommerce-page a.button:hover,
-.woocommerce button.button:hover,
-.woocommerce-page button.button:hover,
-.woocommerce input.button:hover,
-.woocommerce-page input.button:hover,
-.woocommerce #respond input#submit:hover,
-.woocommerce-page #respond input#submit:hover,
-.woocommerce #content input.button:hover,
-.woocommerce-page #content input.button:hover {
-	padding: 0.3em 2em 0.3em 1em;
-	border: 2px solid transparent;
-}
-
-/* Button Hover Dark Text */
-.comment-reply-link:hover,
-.form-submit .et_pb_button:hover,
-.et_password_protected_form .et_submit_button:hover,
-.woocommerce a.button.alt:hover,
-.woocommerce-page a.button.alt:hover,
-.woocommerce button.button.alt:hover,
-.woocommerce-page button.button.alt:hover,
-.woocommerce input.button.alt:hover,
-.woocommerce-page input.button.alt:hover,
-.woocommerce #respond input#submit.alt:hover,
-.woocommerce-page #respond input#submit.alt:hover,
-.woocommerce #content input.button.alt:hover,
-.woocommerce-page #content input.button.alt:hover,
-.woocommerce a.button:hover,
-.woocommerce-page a.button:hover,
-.woocommerce button.button:hover,
-.woocommerce-page button.button:hover,
-.woocommerce input.button:hover,
-.woocommerce-page input.button:hover,
-.woocommerce #respond input#submit:hover,
-.woocommerce-page #respond input#submit:hover,
-.woocommerce #content input.button:hover,
-.woocommerce-page #content input.button:hover {
-	background: rgba(0, 0, 0, 0.05);
-}
-
-/* Button - With Icon */
-.woocommerce a.button.alt:after,
-.woocommerce-page a.button.alt:after,
-.woocommerce button.button.alt:after,
-.woocommerce-page button.button.alt:after,
-.woocommerce input.button.alt:after,
-.woocommerce-page input.button.alt:after,
-.woocommerce #respond input#submit.alt:after,
-.woocommerce-page #respond input#submit.alt:after,
-.woocommerce #content input.button.alt:after,
-.woocommerce-page #content input.button.alt:after,
-.woocommerce a.button:after,
-.woocommerce-page a.button:after,
-.woocommerce button.button:after,
-.woocommerce-page button.button:after,
-.woocommerce input.button:after,
-.woocommerce-page input.button:after,
-.woocommerce #respond input#submit:after,
-.woocommerce-page #respond input#submit:after,
-.woocommerce #content input.button:after,
-.woocommerce-page #content input.button:after {
-	position: absolute;
-	margin-left: -1em;
-	opacity: 0;
-	font-family: "ETmodules";
-	font-size: 32px;
-	line-height: 1em;
-	content: "\35";
-	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	transition: all 0.2s;
-}
-
-.et_button_icon_visible .et_pb_button,
-.et_button_icon_visible.woocommerce a.button.alt,
-.et_button_icon_visible.woocommerce-page a.button.alt,
-.et_button_icon_visible.woocommerce button.button.alt,
-.et_button_icon_visible.woocommerce-page button.button.alt,
-.et_button_icon_visible.woocommerce input.button.alt,
-.et_button_icon_visible.woocommerce-page input.button.alt,
-.et_button_icon_visible.woocommerce #respond input#submit.alt,
-.et_button_icon_visible.woocommerce-page #respond input#submit.alt,
-.et_button_icon_visible.woocommerce #content input.button.alt,
-.et_button_icon_visible.woocommerce-page #content input.button.alt,
-.et_button_icon_visible.woocommerce a.button,
-.et_button_icon_visible.woocommerce-page a.button,
-.et_button_icon_visible.woocommerce button.button,
-.et_button_icon_visible.woocommerce-page button.button,
-.et_button_icon_visible.woocommerce input.button,
-.et_button_icon_visible.woocommerce-page input.button,
-.et_button_icon_visible.woocommerce #respond input#submit,
-.et_button_icon_visible.woocommerce-page #respond input#submit,
-.et_button_icon_visible.woocommerce #content input.button,
-.et_button_icon_visible.woocommerce-page #content input.button {
-	padding-right: 2em;
-	padding-left: 0.7em;
-}
-
-.et_button_icon_visible .et_pb_button:after,
-.et_button_icon_visible.woocommerce a.button.alt:after,
-.et_button_icon_visible.woocommerce-page a.button.alt:after,
-.et_button_icon_visible.woocommerce button.button.alt:after,
-.et_button_icon_visible.woocommerce-page button.button.alt:after,
-.et_button_icon_visible.woocommerce input.button.alt:after,
-.et_button_icon_visible.woocommerce-page input.button.alt:after,
-.et_button_icon_visible.woocommerce #respond input#submit.alt:after,
-.et_button_icon_visible.woocommerce-page #respond input#submit.alt:after,
-.et_button_icon_visible.woocommerce #content input.button.alt:after,
-.et_button_icon_visible.woocommerce-page #content input.button.alt:after,
-.et_button_icon_visible.woocommerce a.button:after,
-.et_button_icon_visible.woocommerce-page a.button:after,
-.et_button_icon_visible.woocommerce button.button:after,
-.et_button_icon_visible.woocommerce-page button.button:after,
-.et_button_icon_visible.woocommerce input.button:after,
-.et_button_icon_visible.woocommerce-page input.button:after,
-.et_button_icon_visible.woocommerce #respond input#submit:after,
-.et_button_icon_visible.woocommerce-page #respond input#submit:after,
-.et_button_icon_visible.woocommerce #content input.button:after,
-.et_button_icon_visible.woocommerce-page #content input.button:after {
-	margin-left: 0;
-	opacity: 1;
-}
-
-.et_button_left .et_pb_button:hover:after,
-.et_button_left.et_button_icon_visible.woocommerce a.button.alt:hover:after,
-.et_button_left.et_button_icon_visible.woocommerce-page a.button.alt:hover:after,
-.et_button_left.et_button_icon_visible.woocommerce button.button.alt:hover:after,
-.et_button_left.et_button_icon_visible.woocommerce-page button.button.alt:hover:after,
-.et_button_left.et_button_icon_visible.woocommerce input.button.alt:hover:after,
-.et_button_left.et_button_icon_visible.woocommerce-page input.button.alt:hover:after,
-.et_button_left.et_button_icon_visible.woocommerce #respond input#submit.alt:hover:after,
-.et_button_left.et_button_icon_visible.woocommerce-page #respond input#submit.alt:hover:after,
-.et_button_left.et_button_icon_visible.woocommerce #content input.button.alt:hover:after,
-.et_button_left.et_button_icon_visible.woocommerce-page #content input.button.alt:hover:after,
-.et_button_left.et_button_icon_visible.woocommerce a.button:hover:after,
-.et_button_left.et_button_icon_visible.woocommerce-page a.button:hover:after,
-.et_button_left.et_button_icon_visible.woocommerce button.button:hover:after,
-.et_button_left.et_button_icon_visible.woocommerce-page button.button:hover:after,
-.et_button_left.et_button_icon_visible.woocommerce input.button:hover:after,
-.et_button_left.et_button_icon_visible.woocommerce-page input.button:hover:after,
-.et_button_left.et_button_icon_visible.woocommerce #respond input#submit:hover:after,
-.et_button_left.et_button_icon_visible.woocommerce-page #respond input#submit:hover:after,
-.et_button_left.et_button_icon_visible.woocommerce #content input.button:hover:after,
-.et_button_left.et_button_icon_visible.woocommerce-page #content input.button:hover:after {
-	left: 0.15em;
-}
-
-.comment-reply-link:hover:after,
-.woocommerce a.button.alt:hover:after,
-.woocommerce-page a.button.alt:hover:after,
-.woocommerce button.button.alt:hover:after,
-.woocommerce-page button.button.alt:hover:after,
-.woocommerce input.button.alt:hover:after,
-.woocommerce-page input.button.alt:hover:after,
-.woocommerce #respond input#submit.alt:hover:after,
-.woocommerce-page #respond input#submit.alt:hover:after,
-.woocommerce #content input.button.alt:hover:after,
-.woocommerce-page #content input.button.alt:hover:after,
-.woocommerce a.button:hover:after,
-.woocommerce-page a.button:hover:after,
-.woocommerce button.button:hover:after,
-.woocommerce-page button.button:hover:after,
-.woocommerce input.button:hover:after,
-.woocommerce-page input.button:hover:after,
-.woocommerce #respond input#submit:hover:after,
-.woocommerce-page #respond input#submit:hover:after,
-.woocommerce #content input.button:hover:after,
-.woocommerce-page #content input.button:hover:after {
-	margin-left: 0;
-	opacity: 1;
-}
-
-.et_button_left .et_pb_button:after,
-.et_button_left.woocommerce a.button.alt:after,
-.et_button_left.woocommerce-page a.button.alt:after,
-.et_button_left.woocommerce button.button.alt:after,
-.et_button_left.woocommerce-page button.button.alt:after,
-.et_button_left.woocommerce input.button.alt:after,
-.et_button_left.woocommerce-page input.button.alt:after,
-.et_button_left.woocommerce #respond input#submit.alt:after,
-.et_button_left.woocommerce-page #respond input#submit.alt:after,
-.et_button_left.woocommerce #content input.button.alt:after,
-.et_button_left.woocommerce-page #content input.button.alt:after,
-.et_button_left.woocommerce a.button:after,
-.et_button_left.woocommerce-page a.button:after,
-.et_button_left.woocommerce button.button:after,
-.et_button_left.woocommerce-page button.button:after,
-.et_button_left.woocommerce input.button:after,
-.et_button_left.woocommerce-page input.button:after,
-.et_button_left.woocommerce #respond input#submit:after,
-.et_button_left.woocommerce-page #respond input#submit:after,
-.et_button_left.woocommerce #content input.button:after,
-.et_button_left.woocommerce-page #content input.button:after {
-	left: 1em;
-	margin-left: 0;
-}
-
-.et_button_left .et_pb_button:hover,
-.et_button_left .et_pb_module .et_pb_button:hover,
-.et_button_icon_visible.et_button_left .et_pb_button,
-.et_button_left.woocommerce a.button.alt:hover,
-.et_button_left.woocommerce-page a.button.alt:hover,
-.et_button_left.woocommerce button.button.alt:hover,
-.et_button_left.woocommerce-page button.button.alt:hover,
-.et_button_left.woocommerce input.button.alt:hover,
-.et_button_left.woocommerce-page input.button.alt:hover,
-.et_button_left.woocommerce #respond input#submit.alt:hover,
-.et_button_left.woocommerce-page #respond input#submit.alt:hover,
-.et_button_left.woocommerce #content input.button.alt:hover,
-.et_button_left.woocommerce-page #content input.button.alt:hover,
-.et_button_left.woocommerce a.button:hover,
-.et_button_left.woocommerce-page a.button:hover,
-.et_button_left.woocommerce button.button:hover,
-.et_button_left.woocommerce-page button.button:hover,
-.et_button_left.woocommerce input.button:hover,
-.et_button_left.woocommerce-page input.button:hover,
-.et_button_left.woocommerce #respond input#submit:hover,
-.et_button_left.woocommerce-page #respond input#submit:hover,
-.et_button_left.woocommerce #content input.button:hover,
-.et_button_left.woocommerce-page #content input.button:hover,
-.et_button_icon_visible.et_button_left.woocommerce a.button.alt,
-.et_button_icon_visible.et_button_left.woocommerce-page a.button.alt,
-.et_button_icon_visible.et_button_left.woocommerce button.button.alt,
-.et_button_icon_visible.et_button_left.woocommerce-page button.button.alt,
-.et_button_icon_visible.et_button_left.woocommerce input.button.alt,
-.et_button_icon_visible.et_button_left.woocommerce-page input.button.alt,
-.et_button_icon_visible.et_button_left.woocommerce #respond input#submit.alt,
-.et_button_icon_visible.et_button_left.woocommerce-page #respond input#submit.alt,
-.et_button_icon_visible.et_button_left.woocommerce #content input.button.alt,
-.et_button_icon_visible.et_button_left.woocommerce-page #content input.button.alt,
-.et_button_icon_visible.et_button_left.woocommerce a.button,
-.et_button_icon_visible.et_button_left.woocommerce-page a.button,
-.et_button_icon_visible.et_button_left.woocommerce button.button,
-.et_button_icon_visible.et_button_left.woocommerce-page button.button,
-.et_button_icon_visible.et_button_left.woocommerce input.button,
-.et_button_icon_visible.et_button_left.woocommerce-page input.button,
-.et_button_icon_visible.et_button_left.woocommerce #respond input#submit,
-.et_button_icon_visible.et_button_left.woocommerce-page #respond input#submit,
-.et_button_icon_visible.et_button_left.woocommerce #content input.button,
-.et_button_icon_visible.et_button_left.woocommerce-page #content input.button {
-	padding-right: 0.7em;
-	padding-left: 2em;
-}
-
-.et_button_left .et_pb_button:hover:after,
-.et_button_icon_visible.et_button_left .et_pb_button:after,
-.et_button_left.woocommerce a.button.alt:hover:after,
-.et_button_left.woocommerce-page a.button.alt:hover:after,
-.et_button_left.woocommerce button.button.alt:hover:after,
-.et_button_left.woocommerce-page button.button.alt:hover:after,
-.et_button_left.woocommerce input.button.alt:hover:after,
-.et_button_left.woocommerce-page input.button.alt:hover:after,
-.et_button_left.woocommerce #respond input#submit.alt:hover:after,
-.et_button_left.woocommerce-page #respond input#submit.alt:hover:after,
-.et_button_left.woocommerce #content input.button.alt:hover:after,
-.et_button_left.woocommerce-page #content input.button.alt:hover:after,
-.et_button_left.woocommerce a.button:hover:after,
-.et_button_left.woocommerce-page a.button:hover:after,
-.et_button_left.woocommerce button.button:hover:after,
-.et_button_left.woocommerce-page button.button:hover:after,
-.et_button_left.woocommerce input.button:hover:after,
-.et_button_left.woocommerce-page input.button:hover:after,
-.et_button_left.woocommerce #respond input#submit:hover:after,
-.et_button_left.woocommerce-page #respond input#submit:hover:after,
-.et_button_left.woocommerce #content input.button:hover:after,
-.et_button_left.woocommerce-page #content input.button:hover:after,
-.et_button_icon_visible.et_button_left.woocommerce a.button.alt:after,
-.et_button_icon_visible.et_button_left.woocommerce-page a.button.alt:after,
-.et_button_icon_visible.et_button_left.woocommerce button.button.alt:after,
-.et_button_icon_visible.et_button_left.woocommerce-page button.button.alt:after,
-.et_button_icon_visible.et_button_left.woocommerce input.button.alt:after,
-.et_button_icon_visible.et_button_left.woocommerce-page input.button.alt:after,
-.et_button_icon_visible.et_button_left.woocommerce #respond input#submit.alt:after,
-.et_button_icon_visible.et_button_left.woocommerce-page #respond input#submit.alt:after,
-.et_button_icon_visible.et_button_left.woocommerce #content input.button.alt:after,
-.et_button_icon_visible.et_button_left.woocommerce-page #content input.button.alt:after,
-.et_button_icon_visible.et_button_left.woocommerce a.button:after,
-.et_button_icon_visible.et_button_left.woocommerce-page a.button:after,
-.et_button_icon_visible.et_button_left.woocommerce button.button:after,
-.et_button_icon_visible.et_button_left.woocommerce-page button.button:after,
-.et_button_icon_visible.et_button_left.woocommerce input.button:after,
-.et_button_icon_visible.et_button_left.woocommerce-page input.button:after,
-.et_button_icon_visible.et_button_left.woocommerce #respond input#submit:after,
-.et_button_icon_visible.et_button_left.woocommerce-page #respond input#submit:after,
-.et_button_icon_visible.et_button_left.woocommerce #content input.button:after,
-.et_button_icon_visible.et_button_left.woocommerce-page #content input.button:after {
-	left: 0.15em;
-}
-
-/* Button Hover - No Icon */
-.form-submit .et_pb_button:hover,
-.et_password_protected_form .et_submit_button:hover,
-.woocommerce #respond input#submit:hover,
-.woocommerce-page #respond input#submit:hover {
-	padding: 0.3em 1em;
-}
-
-/* Button - With No Icon */
-.et_button_no_icon .et_pb_button:after,
-.et_button_no_icon.woocommerce a.button.alt:after,
-.et_button_no_icon.woocommerce-page a.button.alt:after,
-.et_button_no_icon.woocommerce button.button.alt:after,
-.et_button_no_icon.woocommerce-page button.button.alt:after,
-.et_button_no_icon.woocommerce input.button.alt:after,
-.et_button_no_icon.woocommerce-page input.button.alt:after,
-.et_button_no_icon.woocommerce #respond input#submit.alt:after,
-.et_button_no_icon.woocommerce-page #respond input#submit.alt:after,
-.et_button_no_icon.woocommerce #content input.button.alt:after,
-.et_button_no_icon.woocommerce-page #content input.button.alt:after,
-.et_button_no_icon.woocommerce a.button:after,
-.et_button_no_icon.woocommerce-page a.button:after,
-.et_button_no_icon.woocommerce button.button:after,
-.et_button_no_icon.woocommerce-page button.button:after,
-.et_button_no_icon.woocommerce input.button:after,
-.et_button_no_icon.woocommerce-page input.button:after,
-.et_button_no_icon.woocommerce #respond input#submit:after,
-.et_button_no_icon.woocommerce-page #respond input#submit:after,
-.et_button_no_icon.woocommerce #content input.button:after,
-.et_button_no_icon.woocommerce-page #content input.button:after {
-	display: none;
-}
-
-.et_button_no_icon .et_pb_button,
-.et_button_no_icon .et_pb_button:hover,
-.et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button,
-.et_button_no_icon.et_button_left .et_pb_button:hover,
-.et_button_no_icon.woocommerce a.button.alt,
-.et_button_no_icon.woocommerce-page a.button.alt,
-.et_button_no_icon.woocommerce button.button.alt,
-.et_button_no_icon.woocommerce-page button.button.alt,
-.et_button_no_icon.woocommerce input.button.alt,
-.et_button_no_icon.woocommerce-page input.button.alt,
-.et_button_no_icon.woocommerce #respond input#submit.alt,
-.et_button_no_icon.woocommerce-page #respond input#submit.alt,
-.et_button_no_icon.woocommerce #content input.button.alt,
-.et_button_no_icon.woocommerce-page #content input.button.alt,
-.et_button_no_icon.woocommerce a.button,
-.et_button_no_icon.woocommerce-page a.button,
-.et_button_no_icon.woocommerce button.button,
-.et_button_no_icon.woocommerce-page button.button,
-.et_button_no_icon.woocommerce input.button,
-.et_button_no_icon.woocommerce-page input.button,
-.et_button_no_icon.woocommerce #respond input#submit,
-.et_button_no_icon.woocommerce-page #respond input#submit,
-.et_button_no_icon.woocommerce #content input.button,
-.et_button_no_icon.woocommerce-page #content input.button,
-.et_button_no_icon.woocommerce a.button.alt:hover,
-.et_button_no_icon.woocommerce-page a.button.alt:hover,
-.et_button_no_icon.woocommerce button.button.alt:hover,
-.et_button_no_icon.woocommerce-page button.button.alt:hover,
-.et_button_no_icon.woocommerce input.button.alt:hover,
-.et_button_no_icon.woocommerce-page input.button.alt:hover,
-.et_button_no_icon.woocommerce #respond input#submit.alt:hover,
-.et_button_no_icon.woocommerce-page #respond input#submit.alt:hover,
-.et_button_no_icon.woocommerce #content input.button.alt:hover,
-.et_button_no_icon.woocommerce-page #content input.button.alt:hover,
-.et_button_no_icon.woocommerce a.button:hover,
-.et_button_no_icon.woocommerce-page a.button:hover,
-.et_button_no_icon.woocommerce button.button:hover,
-.et_button_no_icon.woocommerce-page button.button:hover,
-.et_button_no_icon.woocommerce input.button:hover,
-.et_button_no_icon.woocommerce-page input.button:hover,
-.et_button_no_icon.woocommerce #respond input#submit:hover,
-.et_button_no_icon.woocommerce-page #respond input#submit:hover,
-.et_button_no_icon.woocommerce #content input.button:hover,
-.et_button_no_icon.woocommerce-page #content input.button:hover,
-.et_button_no_icon.et_button_icon_visible.et_button_left.woocommerce a.button.alt,
-.et_button_no_icon.et_button_icon_visible.et_button_left.woocommerce-page a.button.alt,
-.et_button_no_icon.et_button_icon_visible.et_button_left.woocommerce button.button.alt,
-.et_button_no_icon.et_button_icon_visible.et_button_left.woocommerce-page button.button.alt,
-.et_button_no_icon.et_button_icon_visible.et_button_left.woocommerce input.button.alt,
-.et_button_no_icon.et_button_icon_visible.et_button_left.woocommerce-page input.button.alt,
-.et_button_no_icon.et_button_icon_visible.et_button_left.woocommerce #respond input#submit.alt,
-.et_button_no_icon.et_button_icon_visible.et_button_left.woocommerce-page #respond input#submit.alt,
-.et_button_no_icon.et_button_icon_visible.et_button_left.woocommerce #content input.button.alt,
-.et_button_no_icon.et_button_icon_visible.et_button_left.woocommerce-page #content input.button.alt,
-.et_button_no_icon.et_button_icon_visible.et_button_left.woocommerce a.button,
-.et_button_no_icon.et_button_icon_visible.et_button_left.woocommerce-page a.button,
-.et_button_no_icon.et_button_icon_visible.et_button_left.woocommerce button.button,
-.et_button_no_icon.et_button_icon_visible.et_button_left.woocommerce-page button.button,
-.et_button_no_icon.et_button_icon_visible.et_button_left.woocommerce input.button,
-.et_button_no_icon.et_button_icon_visible.et_button_left.woocommerce-page input.button,
-.et_button_no_icon.et_button_icon_visible.et_button_left.woocommerce #respond input#submit,
-.et_button_no_icon.et_button_icon_visible.et_button_left.woocommerce-page #respond input#submit,
-.et_button_no_icon.et_button_icon_visible.et_button_left.woocommerce #content input.button,
-.et_button_no_icon.et_button_icon_visible.et_button_left.woocommerce-page #content input.button,
-.et_button_no_icon.et_button_left.woocommerce a.button.alt:hover,
-.et_button_no_icon.et_button_left.woocommerce-page a.button.alt:hover,
-.et_button_no_icon.et_button_left.woocommerce button.button.alt:hover,
-.et_button_no_icon.et_button_left.woocommerce-page button.button.alt:hover,
-.et_button_no_icon.et_button_left.woocommerce input.button.alt:hover,
-.et_button_no_icon.et_button_left.woocommerce-page input.button.alt:hover,
-.et_button_no_icon.et_button_left.woocommerce #respond input#submit.alt:hover,
-.et_button_no_icon.et_button_left.woocommerce-page #respond input#submit.alt:hover,
-.et_button_no_icon.et_button_left.woocommerce #content input.button.alt:hover,
-.et_button_no_icon.et_button_left.woocommerce-page #content input.button.alt:hover,
-.et_button_no_icon.et_button_left.woocommerce a.button:hover,
-.et_button_no_icon.et_button_left.woocommerce-page a.button:hover,
-.et_button_no_icon.et_button_left.woocommerce button.button:hover,
-.et_button_no_icon.et_button_left.woocommerce-page button.button:hover,
-.et_button_no_icon.et_button_left.woocommerce input.button:hover,
-.et_button_no_icon.et_button_left.woocommerce-page input.button:hover,
-.et_button_no_icon.et_button_left.woocommerce #respond input#submit:hover,
-.et_button_no_icon.et_button_left.woocommerce-page #respond input#submit:hover,
-.et_button_no_icon.et_button_left.woocommerce #content input.button:hover,
-.et_button_no_icon.et_button_left.woocommerce-page #content input.button:hover,
-.woocommerce input.button,
-.woocommerce input.button:hover {
-	padding: 0.3em 1em !important;
-}
-
-/* Button with custom icon */
-.et_button_custom_icon .et_pb_button:after,
-.et_button_custom_icon.woocommerce a.button.alt:after,
-.et_button_custom_icon.woocommerce-page a.button.alt:after,
-.et_button_custom_icon.woocommerce button.button.alt:after,
-.et_button_custom_icon.woocommerce-page button.button.alt:after,
-.et_button_custom_icon.woocommerce input.button.alt:after,
-.et_button_custom_icon.woocommerce-page input.button.alt:after,
-.et_button_custom_icon.woocommerce #respond input#submit.alt:after,
-.et_button_custom_icon.woocommerce-page #respond input#submit.alt:after,
-.et_button_custom_icon.woocommerce #content input.button.alt:after,
-.et_button_custom_icon.woocommerce-page #content input.button.alt:after,
-.et_button_custom_icon.woocommerce a.button:after,
-.et_button_custom_icon.woocommerce-page a.button:after,
-.et_button_custom_icon.woocommerce button.button:after,
-.et_button_custom_icon.woocommerce-page button.button:after,
-.et_button_custom_icon.woocommerce input.button:after,
-.et_button_custom_icon.woocommerce-page input.button:after,
-.et_button_custom_icon.woocommerce #respond input#submit:after,
-.et_button_custom_icon.woocommerce-page #respond input#submit:after,
-.et_button_custom_icon.woocommerce #content input.button:after,
-.et_button_custom_icon.woocommerce-page #content input.button:after {
-	line-height: 1.7em;
-}
-
-.et_button_custom_icon .et_pb_button:hover:after,
-.et_button_custom_icon.et_button_icon_visible .et_pb_button:after,
-.et_button_custom_icon.woocommerce a.button.alt:hover:after,
-.et_button_custom_icon.woocommerce-page a.button.alt:hover:after,
-.et_button_custom_icon.woocommerce button.button.alt:hover:after,
-.et_button_custom_icon.woocommerce-page button.button.alt:hover:after,
-.et_button_custom_icon.woocommerce input.button.alt:hover:after,
-.et_button_custom_icon.woocommerce-page input.button.alt:hover:after,
-.et_button_custom_icon.woocommerce #respond input#submit.alt:hover:after,
-.et_button_custom_icon.woocommerce-page #respond input#submit.alt:hover:after,
-.et_button_custom_icon.woocommerce #content input.button.alt:hover:after,
-.et_button_custom_icon.woocommerce-page #content input.button.alt:hover:after,
-.et_button_custom_icon.woocommerce a.button:hover:after,
-.et_button_custom_icon.woocommerce-page a.button:hover:after,
-.et_button_custom_icon.woocommerce button.button:hover:after,
-.et_button_custom_icon.woocommerce-page button.button:hover:after,
-.et_button_custom_icon.woocommerce input.button:hover:after,
-.et_button_custom_icon.woocommerce-page input.button:hover:after,
-.et_button_custom_icon.woocommerce #respond input#submit:hover:after,
-.et_button_left.woocommerce-page #respond input#submit:hover:after,
-.et_button_custom_icon.woocommerce #content input.button:hover:after,
-.et_button_custom_icon.woocommerce-page #content input.button:hover:after,
-.et_button_custom_icon.et_button_icon_visible.woocommerce a.button.alt:after,
-.et_button_custom_icon.et_button_icon_visible.woocommerce-page a.button.alt:after,
-.et_button_custom_icon.et_button_icon_visible.woocommerce button.button.alt:after,
-.et_button_custom_icon.et_button_icon_visible.woocommerce-page button.button.alt:after,
-.et_button_custom_icon.et_button_icon_visible.woocommerce input.button.alt:after,
-.et_button_custom_icon.et_button_icon_visible.woocommerce-page input.button.alt:after,
-.et_button_custom_icon.et_button_icon_visible.woocommerce #respond input#submit.alt:after,
-.et_button_custom_icon.et_button_icon_visible.woocommerce-page #respond input#submit.alt:after,
-.et_button_custom_icon.et_button_icon_visible.woocommerce #content input.button.alt:after,
-.et_button_custom_icon.et_button_icon_visible.woocommerce-page #content input.button.alt:after,
-.et_button_custom_icon.et_button_icon_visible.woocommerce a.button:after,
-.et_button_custom_icon.et_button_icon_visible.woocommerce-page a.button:after,
-.et_button_custom_icon.et_button_icon_visible.woocommerce button.button:after,
-.et_button_custom_icon.et_button_icon_visible.woocommerce-page button.button:after,
-.et_button_custom_icon.et_button_icon_visible.woocommerce input.button:after,
-.et_button_custom_icon.et_button_icon_visible.woocommerce-page input.button:after,
-.et_button_custom_icon.et_button_icon_visible.woocommerce #respond input#submit:after,
-.et_button_custom_icon.et_button_icon_visible.woocommerce-page #respond input#submit:after,
-.et_button_custom_icon.et_button_icon_visible.woocommerce #content input.button:after,
-.et_button_custom_icon.et_button_icon_visible.woocommerce-page #content input.button:after {
-	margin-left: 0.3em;
-}
-
 /* Table Styles */
 .entry-content table,
 body.et-pb-preview #main-content .container table {
@@ -1295,12 +689,15 @@ body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header {
 /* Header Style Left */
 .et_header_style_left #et-top-navigation,
 .et_header_style_split #et-top-navigation {
-	padding-top: 33px;
+	/* padding-top: 33px; */
+	height:80px;
 }
 
 .et_header_style_left #et-top-navigation nav > ul > li > a,
 .et_header_style_split #et-top-navigation nav > ul > li > a {
-	padding-bottom: 33px;
+	/* padding-bottom: 33px; */
+	height:80px;
+	line-height:5.5em;
 }
 
 .et_header_style_left .logo_container {
@@ -1629,7 +1026,7 @@ span.logo_helper {
 }
 
 #et-top-navigation {
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .et_fixed_nav #et-top-navigation {
@@ -1682,7 +1079,6 @@ nav.fullwidth-menu-nav,
 /* Shared Fullwidth Menu Styles */
 #top-menu li {
 	display: inline-block;
-	padding-right: 22px;
 	font-size: 14px;
 }
 
@@ -1839,7 +1235,6 @@ span.et_close_search_field:after {
 	line-height: 1;
 	text-transform: none;
 	content: "\4d";
-
 	speak: none;
 }
 
@@ -1934,569 +1329,6 @@ body.single .et_audio_content {
 	width: 80%;
 	max-width: 1080px;
 	margin: 10px auto;
-}
-
-/* Required by Theme Check */
-/* Password Protected Post */
-.et_password_protected_form p input {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	width: 100% !important;
-	padding: 16px !important;
-	border: none !important;
-	-webkit-border-radius: 0 !important;
-	-moz-border-radius: 0 !important;
-	border-radius: 0 !important;
-	color: #999 !important;
-	background-color: #eee;
-	font-size: 14px;
-}
-
-.et_password_protected_form label {
-	display: none;
-}
-
-.et_password_protected_form .et_submit_button {
-	display: block;
-	float: right;
-	margin: 8px auto 0;
-	font-family: inherit;
-	cursor: pointer;
-}
-
-.post-password-required .et_pb_row,
-.post-password-required p.nocomments.container {
-	max-width: 100%;
-}
-
-.post-password-required p.nocomments.container:before {
-	display: none;
-}
-
-/* WooCommerce */
-p.demo_store {
-	position: fixed !important;
-	z-index: 100000;
-	top: auto !important;
-	bottom: 0 !important;
-}
-
-.entry-content address,
-.comment-content address,
-body.et-pb-preview #main-content .container address {
-	margin-bottom: 12px;
-	line-height: 24px;
-}
-
-.woocommerce-info a {
-	color: #fff !important;
-}
-
-.shop_table .actions .submit {
-	float: right;
-}
-
-.shop_table .actions .checkout-button {
-	clear: both;
-}
-
-.col2-set.addresses {
-	margin-top: 20px;
-}
-
-table.shop_table {
-	margin-bottom: 30px !important;
-}
-
-.woocommerce-message a.button.wc-forward {
-	border: none;
-	background: #fff;
-}
-
-.woocommerce-message a.button.wc-forward:hover {
-	border: none;
-	background: #fff;
-}
-
-.woocommerce form .form-row input.input-text,
-.woocommerce form .form-row textarea {
-	padding: 15px;
-	border-radius: 3px;
-	font-size: 14px;
-}
-
-p.woocommerce-result-count {
-	padding-bottom: 40px;
-	color: #999;
-	font-size: 14px;
-	font-weight: 500;
-}
-
-.entry-summary .entry-title {
-	padding-bottom: 14px!important;
-}
-
-.et_pb_widget .buttons a {
-	margin-top: 10px !important;
-}
-
-.product_meta {
-	padding-top: 6px;
-	border-top: 1px solid #dadada;
-	color: #666;
-	font-size: 14px;
-}
-
-.posted_in a {
-	color: #82c0c7;
-	font-weight: 500;
-	text-decoration: none;
-}
-
-.related.products {
-	margin: 20px 0;
-}
-
-.product .related h2 {
-	padding-bottom: 16px;
-	font-size: 26px !important;
-}
-
-/* Product List */
-.woocommerce ul.products li.product a img,
-.woocommerce-page ul.products li.product a img {
-	margin: 0 0 9px !important;
-	-webkit-box-shadow: none !important;
-	-moz-box-shadow: none !important;
-	box-shadow: none !important;
-}
-
-.woocommerce ul.products li.product h3,
-.woocommerce-page ul.products li.product h3 {
-	padding: 0.3em 0;
-}
-
-.woocommerce ul.products li.product .onsale,
-.woocommerce-page ul.products li.product .onsale {
-	right: auto !important;
-	left: 10px !important;
-	margin: 0 !important;
-}
-
-.woocommerce span.onsale,
-.woocommerce-page span.onsale {
-	position: absolute;
-	z-index: 2;
-	top: 10px !important;
-	left: 10px !important;
-	min-width: 0 !important;
-	min-height: 0 !important;
-	margin: 0 !important;
-	padding: 6px 18px !important;
-	-webkit-border-radius: 3px !important;
-	-moz-border-radius: 3px !important;
-	border-radius: 3px !important;
-	color: #fff;
-	background: #ef8f61!important;
-	-webkit-box-shadow: none !important;
-	-moz-box-shadow: none !important;
-	box-shadow: none !important;
-	text-shadow: none !important;
-	font-size: 20px;
-	font-weight: 500!important;
-	line-height: inherit!important;
-}
-
-.woocommerce div.product div.images img,
-.woocommerce-page div.product div.images img,
-.woocommerce #content div.product div.images img,
-.woocommerce-page #content div.product div.images img {
-	-webkit-box-shadow: none !important;
-	-moz-box-shadow: none !important;
-	box-shadow: none !important;
-}
-
-.woocommerce div.product div.images div.thumbnails,
-.woocommerce-page div.product div.images div.thumbnails,
-.woocommerce #content div.product div.images div.thumbnails,
-.woocommerce-page #content div.product div.images div.thumbnails {
-	padding-top: 20px !important;
-}
-
-/* Pagination */
-.woocommerce .woocommerce-pagination ul.page-numbers,
-.woocommerce-page .woocommerce-pagination ul.page-numbers {
-	padding: 0 !important;
-	list-style: none !important;
-}
-
-/* Star Rating */
-.woocommerce .products .star-rating,
-.woocommerce-page .products .star-rating {
-	margin: 4px 0 0.3em 0 !important;
-}
-
-.woocommerce .star-rating:before,
-.woocommerce-page .star-rating:before {
-	color: #ccc !important;
-	content: "\53\53\53\53\53" !important;
-}
-
-/* Price */
-.woocommerce ul.products li.product .price,
-.woocommerce-page ul.products li.product .price,
-.woocommerce ul.products li.product .price del,
-.woocommerce-page ul.products li.product .price del {
-	margin: 0!important;
-	color: #666!important;
-	font-size: 14px;
-}
-
-.entry-summary p.price span {
-	font-size: 26px!important;
-}
-
-.entry-summary p.price del {
-	margin-right: 10px;
-	color: #999;
-}
-
-/* Cart */
-.cart_table_item .quantity {
-	width: 100px !important;
-	margin: 0 !important;
-}
-
-#main-content .cart-subtotal td {
-	border-top: none;
-}
-
-.woocommerce-checkout #main-content .cart-subtotal td {
-	border-top: 1px solid #eee;
-}
-
-table.cart th,
-#main-content table.cart th,
-table.cart td,
-#main-content table.cart td,
-table.cart tr,
-#main-content table.cart tr,
-#content-area table tr,
-#content-area table td,
-#content-area table th {
-	max-width: 100%;
-	padding: 0.857em 0.587em;
-}
-
-table.cart td.actions .button.alt,
-#main-content table.cart td.actions .button.alt {
-	margin: 19px 0 9px;
-}
-
-table.cart td.actions .checkout-button {
-	margin: 0 !important;
-}
-
-.orderby,
-.woocommerce div.product form.cart .variations td select {
-	padding: 4px 8px;
-	border: none;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	color: #666!important;
-	background-color: #ececec;
-	font-family: "Open Sans", Arial, sans-serif;
-	font-size: 12px;
-	font-weight: 500;
-}
-
-.cart_totals h2,
-.shipping_calculator h2 {
-	margin-bottom: 10px;
-}
-
-.woocommerce div.product form.cart,
-.woocommerce-page div.product form.cart,
-.woocommerce #content div.product form.cart,
-.woocommerce-page #content div.product form.cart {
-	margin: 24px 0 39px !important;
-}
-
-.woocommerce div.product form.cart div.quantity,
-.woocommerce-page div.product form.cart div.quantity,
-.woocommerce #content div.product form.cart div.quantity,
-.woocommerce-page #content div.product form.cart div.quantity {
-	overflow: hidden;
-	width: auto;
-	margin: 0 20px 0 0 !important;
-	-webkit-border-radius: 3px !important;
-	-moz-border-radius: 3px !important;
-	border-radius: 3px !important;
-}
-
-.woocommerce .quantity input.qty,
-.woocommerce-page .quantity input.qty,
-.woocommerce #content .quantity input.qty,
-.woocommerce-page #content .quantity input.qty,
-.woocommerce-cart table.cart td.actions .coupon .input-text {
-	height: 49px;
-	border: none!important;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	color: #fff!important;
-	background-color: rgba(0, 0, 0, 0.2) !important;
-	-webkit-box-shadow: none !important;
-	-moz-box-shadow: none !important;
-	box-shadow: none !important;
-	font-size: 20px!important;
-	font-weight: 500 !important;
-}
-
-.woocommerce-cart table.cart td.actions .coupon .input-text {
-	width: 150px;
-	margin-right: 10px;
-	padding: 6px 12px;
-}
-
-.woocommerce-cart table.cart td.actions .coupon .input-text::input-placeholder {
-	color: #fff;
-}
-
-.woocommerce-cart table.cart td.actions .coupon .input-text::-webkit-input-placeholder {
-	color: #fff;
-}
-
-.woocommerce-cart table.cart td.actions .coupon .input-text:-moz-placeholder {
-	color: #fff;
-}
-
-.woocommerce-cart table.cart td.actions .coupon .input-text::-moz-placeholder {
-	color: #fff;
-}
-
-.woocommerce-cart table.cart td.actions .coupon .input-text:-ms-input-placeholder {
-	color: #fff;
-}
-
-.woocommerce .quantity .plus,
-.woocommerce-page .quantity .plus,
-.woocommerce #content .quantity .plus,
-.woocommerce-page #content .quantity .plus,
-.woocommerce .quantity .minus,
-.woocommerce-page .quantity .minus,
-.woocommerce #content .quantity .minus,
-.woocommerce-page #content .quantity .minus {
-	width: 30px !important;
-	height: 24px!important;
-	border: 1px solid #bcc8c9 !important;
-	border-top-left-radius: 0 !important;
-	border-bottom-left-radius: 0 !important;
-	color: #bcc8c9 !important;
-	background: #fff !important;
-	-webkit-box-shadow: none !important;
-	-moz-box-shadow: none !important;
-	box-shadow: none !important;
-	text-shadow: none !important;
-	font-size: 20px !important;
-	font-weight: 300!important;
-	text-decoration: none!important;
-}
-
-.woocommerce #content .quantity,
-.woocommerce .quantity,
-.woocommerce-page #content .quantity,
-.woocommerce-page .quantity {
-	width: 100px;
-	margin: 0;
-}
-
-.woocommerce div.product form.cart .variations td {
-	max-width: none !important;
-	padding: 0 20px 20px 0 !important;
-	line-height: 1.3em;
-}
-
-.woocommerce div.product form.cart .variations td:last-child {
-	padding-right: 0 !important;
-}
-
-.woocommerce ul.cart_list li,
-.woocommerce ul.product_list_widget li,
-.woocommerce-page ul.cart_list li,
-.woocommerce-page ul.product_list_widget li {
-	padding: 6px 0;
-}
-
-/* Tabs */
-.woocommerce div.product .woocommerce-tabs ul.tabs:before,
-.woocommerce-page div.product .woocommerce-tabs ul.tabs:before,
-.woocommerce #content div.product .woocommerce-tabs ul.tabs:before,
-.woocommerce-page #content div.product .woocommerce-tabs ul.tabs:before {
-	border-bottom-color: #d9d9d9;
-}
-
-body.woocommerce .woocommerce-tabs {
-	margin: 30px 0 45px;
-	border: 1px solid #d9d9d9;
-}
-
-body.woocommerce div.product .woocommerce-tabs ul.tabs,
-body.woocommerce #content-area div.product .woocommerce-tabs ul.tabs {
-	margin: 0 !important;
-	padding: 0 !important;
-	background: #f4f4f4;
-}
-
-body.woocommerce div.product .woocommerce-tabs ul.tabs li,
-body.woocommerce #content-area div.product .woocommerce-tabs ul.tabs li,
-body.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
-body.woocommerce #content-area div.product .woocommerce-tabs ul.tabs li.active {
-	margin: 0 -2px;
-	padding: 0;
-	border: none;
-	border-right: 1px solid #d9d9d9;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	border-radius: 0;
-	background: none;
-	background: #f4f4f4;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
-}
-
-body.woocommerce #content-area div.product .woocommerce-tabs ul.tabs li.active {
-	background: #fff !important;
-}
-
-body.woocommerce div.product .woocommerce-tabs ul.tabs li a,
-body.woocommerce #content-area div.product .woocommerce-tabs ul.tabs li a {
-	padding: 4px 22px !important;
-	color: #666 !important;
-}
-
-body.woocommerce div.product .woocommerce-tabs ul.tabs li:before,
-body.woocommerce #content-area div.product .woocommerce-tabs ul.tabs li:before,
-body.woocommerce div.product .woocommerce-tabs ul.tabs li:after,
-body.woocommerce #content-area div.product .woocommerce-tabs ul.tabs li:after {
-	display: none;
-}
-
-body.woocommerce div.product .woocommerce-tabs ul.tabs li.active a,
-body.woocommerce #content-area div.product .woocommerce-tabs ul.tabs li.active a {
-	color: #000 !important;
-}
-
-body.woocommerce div.product .woocommerce-tabs .panel,
-body.woocommerce #content-area div.product .woocommerce-tabs .panel {
-	margin: 0;
-	padding: 30px;
-}
-
-/* Reviews */
-#reviews .commentlist {
-	padding-bottom: 0 !important;
-}
-
-.woocommerce #reviews #comments ol.commentlist li,
-.woocommerce-page #reviews #comments ol.commentlist li {
-	margin-bottom: 40px !important;
-}
-
-.woocommerce #reviews #comments ol.commentlist li .comment-text,
-.woocommerce-page #reviews #comments ol.commentlist li .comment-text {
-	margin: 0 0 0 100px !important;
-	padding: 0 !important;
-	border: none !important;
-}
-
-.woocommerce #reviews #comments ol.commentlist li img.avatar,
-.woocommerce-page #reviews #comments ol.commentlist li img.avatar {
-	width: auto !important;
-	padding: 0 !important;
-	border: none !important;
-}
-
-.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta,
-.woocommerce-page #reviews #comments ol.commentlist li .comment-text p.meta {
-	margin: 0 0 2px !important;
-	padding: 0 !important;
-	font-size: inherit !important;
-}
-
-.woocommerce #reviews .commentlist .star-rating {
-	float: none !important;
-	margin-bottom: 6px !important;
-}
-
-.woocommerce #reviews #comments h2,
-.woocommerce-page #reviews #comments h2 {
-	margin-bottom: 30px !important;
-}
-
-.woocommerce-message,
-.woocommerce-error,
-.woocommerce-info {
-	padding: 15px !important;
-	border: none !important;
-	color: #fff !important;
-	-webkit-box-shadow: none !important;
-	-moz-box-shadow: none !important;
-	box-shadow: none !important;
-	text-shadow: none !important;
-	font-size: 18px !important;
-}
-
-.woocommerce-message:before,
-.woocommerce-error:before,
-.woocommerce-info:before {
-	display: none !important;
-	color: #fff !important;
-}
-
-.woocommerce-page #reviews #commentform,
-.woocommerce-page #review_form #respond p.form-submit {
-	margin-bottom: 0;
-	padding-bottom: 0;
-}
-
-/* Popup Adjustment */
-div.pp_pic_holder {
-	z-index: 100001;
-}
-
-div.pp_overlay {
-	z-index: 100000;
-}
-
-/* Gallery */
-figure.woocommerce-product-gallery__wrapper {
-	margin: 0;
-}
-
-.woocommerce div.product div.images .flex-control-thumbs {
-	margin-top: 6.6666%;
-}
-
-.woocommerce div.product div.images .flex-control-thumbs li {
-	width: 20%;
-	margin-right: 6.6666%;
-	margin-bottom: 6.6666%;
-}
-
-.woocommerce div.product div.images .flex-control-thumbs li:nth-of-type(4n) {
-	margin-right: 0;
-}
-
-.woocommerce div.product div.images.woocommerce-product-gallery {
-	margin-bottom: 0;
-}
-
-.woocommerce div.product div.images .flex-control-thumbs li img {
-	transition: opacity 0.5s ease;
 }
 
 /* Project Post Type */
@@ -2708,7 +1540,7 @@ figure.woocommerce-product-gallery__wrapper {
 }
 
 /* Dropdown Arrows */
-#top-menu .menu-item-has-children > a:first-child:after,
+/* #top-menu .menu-item-has-children > a:first-child:after,
 #et-secondary-nav .menu-item-has-children > a:first-child:after {
 	position: absolute;
 	top: 0;
@@ -2717,7 +1549,7 @@ figure.woocommerce-product-gallery__wrapper {
 	font-size: 16px;
 	font-weight: 800;
 	content: "3";
-}
+} */
 
 #top-menu .menu-item-has-children > a:first-child,
 #et-secondary-nav .menu-item-has-children > a:first-child {
@@ -5212,8 +4044,8 @@ ul.et_pb_side_nav .side_nav_item a.active {
 	.et_fullwidth_nav #main-header .container {
 		width: 100%;
 		max-width: 100%;
-		padding-right: 30px;
-		padding-left: 30px;
+		padding-right: 15px;
+		padding-left: 15px;
 	}
 
 	.et_non_fixed_nav.et_fullwidth_nav.et_header_style_left #main-header .container {
@@ -5367,7 +4199,8 @@ ul.et_pb_side_nav .side_nav_item a.active {
 
 	.et_vertical_nav.et_vertical_fixed.et_header_style_left #et-top-navigation,
 	.et_vertical_nav.et_vertical_fixed.et_header_style_split #et-top-navigation {
-		padding-top: 33px;
+		/* padding-top: 33px; */
+		height:80px;
 	}
 
 	.et_header_style_slide #et-top-navigation,
@@ -5999,25 +4832,6 @@ ul.et_pb_side_nav .side_nav_item a.active {
 /* Blog Comments */
 	.comment .children {
 		margin-left: 0;
-	}
-
-/* WooCommerce */
-	body.woocommerce div.product .woocommerce-tabs ul.tabs li,
-	body.woocommerce #content-area div.product .woocommerce-tabs ul.tabs li,
-	body.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
-	body.woocommerce #content-area div.product .woocommerce-tabs ul.tabs li.active {
-		display: block !important;
-		border-bottom: 1px solid #e0dadf !important;
-	}
-
-	body.woocommerce div.product .woocommerce-tabs ul.tabs li a,
-	body.woocommerce #content-area div.product .woocommerce-tabs ul.tabs li a {
-		display: block !important;
-	}
-
-	.woocommerce .form-row {
-		float: none !important;
-		width: auto !important;
 	}
 
 /* Admin Bar Fixes */
@@ -6966,143 +5780,6 @@ body.iphone .et_pb_contact_form select {
 	.et_pb_column_1_2 .et_pb_pricing.et_pb_no_featured_in_first_row .et_pb_pricing_table:nth-child(2) {
 		margin-top: 0 !important;
 	}
-}
-
-/* Testimonials Module */
-.et_pb_testimonial {
-	position: relative;
-	padding: 30px;
-	line-height: 1.5;
-}
-
-.et_pb_testimonial.et_pb_testimonial_no_bg {
-	padding: 30px 0 0;
-}
-
-.et_pb_testimonial p:last-of-type {
-	padding-bottom: 0;
-}
-
-.et_pb_testimonial_portrait,
-.et_pb_testimonial_portrait:before {
-	-webkit-border-radius: 90px;
-	-moz-border-radius: 90px;
-	border-radius: 90px;
-}
-
-.et_pb_testimonial_portrait {
-	display: block;
-	float: left;
-	position: relative;
-	width: 90px;
-	height: 90px;
-	margin-right: 30px;
-	background-repeat: no-repeat;
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-}
-
-.et_pb_testimonial_portrait:before {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	-webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
-	-moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
-	box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
-	content: "";
-}
-
-.et_pb_column_1_3 .et_pb_testimonial_portrait,
-.et_pb_column_1_4 .et_pb_testimonial_portrait,
-.et_pb_column_3_8 .et_pb_testimonial_portrait {
-	display: block;
-	float: none;
-	margin: 0 auto 20px;
-}
-
-.et_pb_testimonial_description,
-.et_pb_testimonial_description_inner {
-	display: block;
-	position: relative;
-}
-
-.et_pb_bg_layout_dark .et_pb_testimonial_description a {
-	color: #fff;
-}
-
-.et_pb_testimonial_author {
-	display: block;
-	margin-top: 16px;
-	font-weight: 700;
-}
-
-.et_pb_testimonial_author a {
-	color: inherit;
-}
-
-.et_pb_testimonial:before {
-	position: absolute;
-	z-index: 2;
-	top: -16px;
-	left: 50%;
-	margin-left: -16px;
-	-webkit-border-radius: 31px;
-	-moz-border-radius: 31px;
-	border-radius: 31px;
-	background: #f5f5f5;
-	font-size: 32px;
-	content: "\7c";
-}
-
-.et_pb_testimonial.et_pb_testimonial_no_bg:before {
-	background: inherit;
-}
-
-.et_pb_testimonial.et_pb_icon_off:before {
-	display: none;
-}
-
-.et_pb_testimonial_old_layout,
-.et_pb_testimonial_old_layout .et_pb_testimonial_description a {
-	color: #666 !important;
-}
-
-/* Call To Action Module */
-.et-promo {
-	padding: 40px 0 25px;
-	background-color: #1f6581;
-}
-
-.et-promo-description {
-	float: left;
-	padding: 0 60px;
-}
-
-.et-promo-description {
-	width: 754px;
-}
-
-.et-promo-description p {
-	color: #fff;
-}
-
-.et-promo-button {
-	display: inline-block;
-	float: left;
-	margin-top: 20px;
-	padding: 14px 20px;
-	padding-right: 60px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	color: #fff;
-	background-color: rgba(0, 0, 0, 0.35);
-	font-size: 20px;
-	font-weight: 500;
 }
 
 /* Number Counter Module */
@@ -19669,126 +18346,7 @@ ul.et_shortcodes_mobile_nav .et_sc_nav_next span,
 	margin: 0 !important;
 	padding: 2px 0 !important;
 }
-.et-pricing {
-	margin: 40px 0 10px;
-}
-.pricing-table {
-	float: left;
-	position: relative;
-	width: 25%;
-	margin-bottom: 22px;
-	margin-left: -1px;
-}
-.pricing-table-wrap {
-	border: 1px solid #e7e7e7;
-	border-bottom: none;
-}
-.pricing-heading {
-	padding: 23px 10px 22px;
-	border-bottom: 1px solid #e7e7e7;
-	color: #999;
-	-webkit-box-shadow: inset 1px 1px 0 0 #fff;
-	-moz-box-shadow: inset 1px 1px 0 0 #fff;
-	box-shadow: inset 1px 1px 0 0 #fff;
-	text-shadow: 1px 1px 0 #fff;
-	font-size: 12px;
-	text-align: center;
-}
-.pricing-title {
-	color: #53b4c7 !important;
-	text-shadow: none !important;
-	font-size: 20px;
-	font-weight: bold;
-	text-transform: uppercase;
-}
-.pricing-heading p {
-	padding-bottom: 0 !important;
-}
-.pricing-table ul.pricing {
-	margin: 0 !important;
-	padding: 0 !important;
-	line-height: 26px;
-	list-style: none !important;
-	list-style-image: none !important;
-}
-.pricing-table ul.pricing li {
-	position: relative;
-	padding: 14px 7px 14px 63px;
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #e7e7e7;
-	color: #363636;
-	background: #f5f5f5;
-	background: -moz-linear-gradient(top, #f5f5f5 0%, #fefefe 7%, #fff 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5f5f5), color-stop(7%, #fefefe), color-stop(100%, #fff));
-	background: -webkit-linear-gradient(top, #f5f5f5 0%, #fefefe 7%, #fff 100%);
-	background: -o-linear-gradient(top, #f5f5f5 0%, #fefefe 7%, #fff 100%);
-	background: -ms-linear-gradient(top, #f5f5f5 0%, #fefefe 7%, #fff 100%);
-	background: linear-gradient(to bottom, #f5f5f5 0%, #fefefe 7%, #fff 100%);
-	text-shadow: none !important;
-	font-size: 12px;
-	list-style: none !important;
-}
-.pricing-table ul.pricing li span.pricing-mark {
-	position: absolute;
-	top: 19px;
-	left: 30px;
-	width: 22px;
-	height: 18px;
-	background: url("epanel/shortcodes/images/shortcodes-sprite.png") no-repeat -74px -2px;
-}
-.pricing-table ul.pricing li.x-mark span.pricing-mark {
-	background-position: -74px -20px;
-}
-.pricing-content-bottom {
-	padding: 20px 5px 43px;
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #e7e7e7;
-	-webkit-box-shadow: inset 1px 0 0 0 #fff;
-	-moz-box-shadow: inset 1px 0 0 0 #fff;
-	box-shadow: inset 1px 0 0 0 #fff;
-	text-align: center;
-}
-span.et-price {
-	color: #94c65c;
-	text-shadow: 0 1px 0 #fff;
-	font-family: Georgia, serif;
-	font-size: 48px;
-}
-span.et-price sup {
-	bottom: 13px;
-	left: 1px;
-	font-size: 24px;
-}
-span.et-price span.dollar-sign {
-	font-size: 36px;
-}
-.pricing-table a.icon-button {
-	position: absolute;
-	bottom: -13px;
-	left: 50%;
-	margin: 0;
-	padding-left: 15px;
-}
-.pricing-table a.icon-button {
-	visibility: hidden;
-}
-.pricing-big {
-	z-index: 2;
-	top: -20px;
-	-webkit-box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
-	-moz-box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
-	box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
-}
-.pricing-big .pricing-table-wrap {
-	border-color: #d6d5d5;
-}
-.pricing-big .pricing-heading {
-	padding-top: 43px;
-}
-.pricing-big .pricing-content-bottom {
-	padding-bottom: 63px;
-	border-bottom: 1px solid #d6d5d5;
-}
+
 .et-testimonial-box {
 	position: relative;
 	margin: 10px 0 45px;
@@ -19968,4 +18526,44 @@ a.icon-button {
 }
 .clear {
 	clear: both;
+}
+
+.nav li ul {
+    visibility: hidden;
+    z-index: 9999;
+    position: fixed;
+    width: 100vw;
+    left: 0;
+    padding: 0;
+    text-align: center !important;
+    border: none;
+    background: #ffb953;
+    box-shadow: none;
+}
+.nav li.et-reverse-direction-nav li ul {
+    right: 0;
+    top: auto;
+    background: #fccb8f;
+}
+#top-menu li li a {
+    width: 100%;
+}
+.iaa-top-menu-width{
+	width:120px;
+}
+.iaa-top-menu-border-left{
+border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+.iaa-top-menu-border-right{
+	border-left: 1px solid rgba(0, 0, 0, 0.1);
+	}
+.nav-menu-logo{
+	float:left;
+}
+.nav-menu-logo2{
+	margin-top:5px;
+	height:75px;
+}
+.nav-menu-logo1{
+	padding-bottom:5px;
 }
