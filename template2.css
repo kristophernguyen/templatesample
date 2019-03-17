@@ -1076,8 +1076,8 @@ input[type="search"]::-webkit-search-cancel-button {
 
 #footer-bottom {
 	padding: 15px 0 5px;
-	background-color: #1f1f1f;
-	background-color: rgba(0, 0, 0, 0.32);
+	/* background-color: rgba(0, 0, 0, 0.32); */
+	background-color: #222;
 }
 
 #footer-bottom a {
@@ -1085,11 +1085,13 @@ input[type="search"]::-webkit-search-cancel-button {
 	-moz-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
-
+.footer-main-info{
+	margin-left:15px;
+}
 #footer-info {
 	float: left;
 	padding-bottom: 10px;
-	color: #666;
+	color: rgb(156, 156, 156);
 	text-align: left;
 }
 
@@ -6686,5 +6688,35 @@ ul.et_pb_side_nav .side_nav_item a.active {
 	}
 	.iaa-container-main{
 		flex: 1;
+		background-color: #f2f3f8 !important;
+	}
+	.iaa-container-main-subheader{
+		padding: 0px 20px 0px 20px;
+	}
+	.iaa-container-main-subheader .iaa-container-main-subheader-title{
+		display: inline-block;
+		padding: 0px 25px 10px 0;
+		font-size: 1.55rem;
+		vertical-align: middle;
+	}
+	.iaa-separator{
+		border-right: 1px solid #e2e5ec;
+	}
+	.iaa-portlet-container{
+		padding:0px 20px 20px 20px;
+		display: flex;
+		width:100%;
+		height: calc(100vh - 220px);
+	}
+	.iaa-portlet{
+		padding:20px;
+		box-shadow: 0 1px 15px 1px rgba(69,65,78,.08);
+		background-color: #fff;
+		width:100%;
+	}
+	.iaa-portlet-fullheight{
+		display: flex;
+		height: 100%;
+		min-height: 100%;
 	}
 }
